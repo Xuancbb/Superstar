@@ -274,7 +274,7 @@ footer a {
 }
 
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
 
     .navbar-list {
         display: flex;
@@ -304,7 +304,7 @@ footer a {
     .navbar-list a {
         display: block;
         background-color: #00a69a;
-        transition: .3s;
+        transition: background-color .3s;
         font-size: 0;
     }
 
@@ -347,7 +347,7 @@ footer a {
         display: inline-block;
         padding: 12px 20px;
         color: white;
-        transition: .3s;
+        transition: color .3s;
         border-radius: 999px;
     }
 
